@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace KeyLoger
 {
-	public partial class Form1 : Form
+	public partial class KeyLogerApp : Form
 	{
-		public Form1()
+		public KeyLogerApp()
 		{
 			InitializeComponent();
 		}
