@@ -28,13 +28,20 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
+			this.components = new System.ComponentModel.Container();
+			this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
 			this.SuspendLayout();
+			// 
+			// notifyIcon1
+			// 
+			this.notifyIcon1.Text = "Эта программа фиксирует нажатия клавиш";
+			this.notifyIcon1.Visible = true;
 			// 
 			// KeyLogerApp
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(800, 450);
+			this.ClientSize = new System.Drawing.Size(220, 86);
 			this.Name = "KeyLogerApp";
 			this.Text = "KeyLogerApp";
 			this.ResumeLayout(false);
@@ -42,6 +49,8 @@
 		}
 
 		#endregion
+
+		private System.Windows.Forms.NotifyIcon notifyIcon1;
 	}
 }
 

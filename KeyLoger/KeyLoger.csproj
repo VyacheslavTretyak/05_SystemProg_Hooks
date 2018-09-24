@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="KeyLoger.cs" />
     <Compile Include="KeyLogerApp.cs">
       <SubType>Form</SubType>
     </Compile>
